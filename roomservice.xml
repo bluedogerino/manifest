@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="bluedogerino/device-j5y17lte" path="device/samsung/gtaxllte" remote="github" />
-  <project name="bluedogerino/kernel-j5y17lte" path="kernel/samsung/exynos7870" remote="github" revision="lineage-15.1-j5" />
-  <project name="bluedogerino/vendor-j5y17lte" path="vendor/samsung/gtaxllte" remote="github" />
+    <remote  name="github2"
+           fetch="ssh://git@github.com" />
+  <project name="bluedogerino/device-j5y17lte" path="device/samsung/gtaxllte" remote="github2" />
+  <project name="bluedogerino/kernel-j5y17lte" path="kernel/samsung/exynos7870" remote="github2" revision="lineage-15.1-j5" />
+  <project name="bluedogerino/vendor-j5y17lte" path="vendor/samsung/gtaxllte" remote="github2" />
 
-  <project name="bluedogerino/hardware-samsung" path="hardware/samsung" remote="github" />
+  <project name="bluedogerino/hardware-samsung" path="hardware/samsung" remote="github2" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 </manifest>
