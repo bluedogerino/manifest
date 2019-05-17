@@ -7,7 +7,7 @@
   <project name="bluedogerino/kernel-j5y17lte" path="kernel/samsung/exynos7870" remote="github2" revision="lineage-15.1-j5" />
   <project name="bluedogerino/vendor-j5y17lte" path="vendor/samsung/j5y17lte" remote="github2" />
 
-  <project name="bluedogerino/hardware-samsung" path="hardware/samsung" remote="github2" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
 </manifest>
