@@ -6,7 +6,7 @@
   <!-- Device related stuffs -->
   <project name="device-j5y17lte" path="device/samsung/j5y17lte" remote="BlueDoge" />
   <project name="kernel-j5y17lte" path="kernel/samsung/exynos7870" remote="BlueDoge" revision="lineage-15.1-j5" />
-  <project name="new-vendors" path="vendor/samsung" remote="BlueDoge" />
+  <project name="new-vendors" path="vendor/samsung" revision="lineage-15.1-Oblobs" remote="BlueDoge" />
     
   <!-- LineageOS related stuffs -->
   <project name="Valera1978/android_hardware_samsung" path="hardware/samsung" remote="github" />
